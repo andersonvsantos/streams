@@ -37,15 +37,4 @@ public class Pessoa {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-
-
-    public List<Pessoa> popularPessoas() {
-        Pessoa p1 = new Pessoa("Anderson", "Masculino");
-        Pessoa p2 = new Pessoa("Nataly", "Feminino");
-        Pessoa p3 = new Pessoa("Josiane", "Feminino");
-        Pessoa p4 = new Pessoa("Anderson", "Masculino");
-        Pessoa p5 = new Pessoa("Joana", "Feminino");
-
-        return List.of(p1, p2, p3, p4, p5);
-    }
 }
